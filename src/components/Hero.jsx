@@ -1,4 +1,5 @@
-import { avaterSmall, heroBanner } from '../assets';
+import { avaterSmall, heroBanner, download, arrowDown } from '../assets';
+import Button from './Button';
 
 const Hero = () => {
   return (
@@ -26,7 +27,17 @@ const Hero = () => {
             Building Scalable Modern Websites for the Future
           </h2>
           <div className=" flex items-center gap-3">
-            ButtonPrimary ButtonOutline
+            <Button
+              label="Download CV"
+              icon={<img className="h-5" src={download} alt="download" />}
+              classes="btn-primary"
+            />
+            <Button
+              href="#about"
+              label="Scroll Down"
+              classes="btn-outline"
+              icon={<img className="h-4" src={arrowDown} alt="download" />}
+            />
           </div>
         </div>
 
