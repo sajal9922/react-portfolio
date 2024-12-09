@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types';
+// @copyright 2024 shamsul alam
+// @license Apache-2
 
-// Primary Button
+import PropTypes from 'prop-types';
 
 const Button = ({ href, target = '_self', icon, classes, label }) => {
   if (href) {

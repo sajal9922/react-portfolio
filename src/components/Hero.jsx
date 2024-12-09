@@ -1,3 +1,6 @@
+// @copyright 2024 shamsul alam
+// @license Apache-2
+
 import { avaterSmall, heroBanner, download, arrowDown } from '../assets';
 import Button from './Button';
 

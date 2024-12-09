@@ -1,3 +1,6 @@
+// @copyright 2024 shamsul alam
+// @license Apache-2
+
 import React, { useState } from 'react';
 import { logo, menu, close } from '../assets';
 import Navbar from './Navbar';
