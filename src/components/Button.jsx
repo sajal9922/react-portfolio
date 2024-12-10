@@ -22,9 +22,9 @@ const Button = ({ href, target = '_self', icon, classes, label }) => {
 };
 
 Button.propTypes = {
-  href: PropTypes.string.isRequired,
+  href: PropTypes.string,
   target: PropTypes.string,
-  icon: PropTypes.string,
+  icon: PropTypes.element,
   classes: PropTypes.string,
 };
 

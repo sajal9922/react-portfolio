@@ -20,6 +20,7 @@ body {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #b2afaf);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -29,6 +30,10 @@ body {
 
 .headline-2 {
   @apply text-3xl  tracking-wide font-semibold lg:text-4xl lg:leading-tight;
+}
+
+.title-1 {
+  @apply text-[22px] font-normal;
 }
 /* Utility classes */
 
