@@ -1,7 +1,14 @@
 // @copyright 2024 shamsul alam
 // @license Apache-2
 
-import { avaterSmall, heroBanner, download, arrowDown } from '../assets';
+import {
+  avaterSmall,
+  heroBanner,
+  heroBanner2,
+  download,
+  arrowDown,
+  herobanner3,
+} from '../assets';
 import Button from './Button';
 
 const Hero = () => {
@@ -44,12 +51,12 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hidden lg:block ">
-          <figure className="w-full max-w-[480px]  rounded-[60px] overflow-hidden ml-auto bg-gradient-to-t   via-sky-400 via-65%">
+        <div className="hidden lg:block  ">
+          <figure className="w-full max-w-[410px] rounded-[60px] overflow-hidden ml-auto bg-gradient-to-t   via-sky-400 via-65% shadow-lg shadow-zinc-800 ">
             <img
               width={656}
               height={800}
-              src={heroBanner}
+              src={herobanner3}
               alt="shamsul alam"
               className=""
             />
