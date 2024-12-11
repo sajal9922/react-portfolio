@@ -10,6 +10,7 @@ import avaterSmall from './images/avatar-1.jpg';
 import download from './images/download.svg';
 import arrowDown from './images/arrow_downward.svg';
 import starFill from './images/star_fill.svg';
+import arrowRightDark from './images/chevron_right.svg';
 import arrowOutward from './images/arrow_outward.svg';
 import figma from './images/figma.svg';
 import javascript from './images/javascript.svg';
@@ -45,6 +46,7 @@ export {
   download,
   arrowDown,
   arrowOutward,
+  arrowRightDark,
   starFill,
   figma,
   javascript,
