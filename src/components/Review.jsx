@@ -1,5 +1,10 @@
 // @copyright 2024 shamsul alam
 // @license Apache-2
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useGSAP } from '@gsap/react';
+
 import ReviewCard from './ReviewCard';
 import {
   people_1,
@@ -10,6 +15,17 @@ import {
   people_6,
 } from '../assets';
 const Review = () => {
+  useGSAP(() => {
+    gsap.to('.scrub-side', {
+      scrollTrigger: {
+        trigger: '.scrub-side',
+        start: '-200% 80%',
+        end: '400% 80%',
+        scrub: true,
+      },
+      x: '-1000',
+    });
+  });
   const reviews = [
     {
       content:
@@ -57,8 +73,8 @@ const Review = () => {
   return (
     <section id="reviews" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8">What our customers say</h2>
-        <div className="flex items-stretch gap-3 w-fit">
+        <h2 className="headline-2 mb-8 reveal-up">What our customers say</h2>
+        <div className="scrub-side flex items-stretch gap-3 w-fit">
           {reviews.map(({ content, name, imgSrc, company }, key) => (
             <ReviewCard
               key={key}
@@ -66,6 +82,7 @@ const Review = () => {
               name={name}
               imgSrc={imgSrc}
               company={company}
+              class
             />
           ))}
         </div>
