@@ -1,5 +1,4 @@
-// @copyright 2024 shamsul alam
-// @license Apache-2
+import ContactForm from './ContactForm';
 
 const socialLinks = [
   {
@@ -100,61 +99,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <form
-          action="https://getform.io/f/bnllypob"
-          method="POST"
-          className="xl:pl-10 2xl:pl-20"
-        >
-          <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
-            <div className="mb-4">
-              <label htmlFor="name" className="label reveal-up">
-                Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                autoComplete="name"
-                spellCheck="false"
-                required
-                placeholder="Shamsul Alam"
-                className="text-field reveal-up"
-              />
-            </div>
-            <div className="mb-4">
-              <label htmlFor="email" className="label reveal-up">
-                Email
-              </label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                autoComplete="email"
-                required
-                placeholder="shamsul@example.com"
-                className="text-field reveal-up"
-              />
-            </div>
-          </div>
-          <div className="mb-4">
-            <label htmlFor="message" className="label reveal-up">
-              Message
-            </label>
-            <textarea
-              name="message"
-              id="message"
-              required
-              placeholder="Hi!"
-              className="text-field text-resize-y min-h-32 max-h-80 reveal-up"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up"
-          >
-            Send Message
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

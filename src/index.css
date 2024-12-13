@@ -96,6 +96,9 @@ body {
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 text-zinc-50 active:bg-zinc-900;
 }
+.btn-success {
+  @apply h-11 bg-green-500 text-zinc-950 hover:bg-green-500;
+}
 
 /* Text field */
 

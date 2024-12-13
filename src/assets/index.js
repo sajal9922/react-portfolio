@@ -33,6 +33,7 @@ import people_3 from './images/people-3.jpg';
 import people_4 from './images/people-4.jpg';
 import people_5 from './images/people-5.jpg';
 import people_6 from './images/people-6.jpg';
+import done from './images/done.svg';
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   people_4,
   people_5,
   people_6,
+  done,
 };
