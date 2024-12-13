@@ -115,6 +115,7 @@ const Contact = () => {
                 name="name"
                 id="name"
                 autoComplete="name"
+                spellCheck="false"
                 required
                 placeholder="Shamsul Alam"
                 className="text-field reveal-up"
