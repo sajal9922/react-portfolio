@@ -19,7 +19,11 @@ import mongodb from './images/mongodb.svg';
 import react from './images/react.svg';
 import tailwindcss from './images/tailwindcss.svg';
 import expressjs from './images/expressjs.svg';
+import redux from './images/redux.svg';
+import zustand from './images/zustand.svg';
 import html from './images/html.svg';
+import git from './images/git.svg';
+import github from './images/github.png';
 import postgresql from './images/postgresql.svg';
 import project_1 from './images/project-1.jpg';
 import project_2 from './images/project-2.jpg';
@@ -59,6 +63,10 @@ export {
   html,
   expressjs,
   postgresql,
+  git,
+  github,
+  redux,
+  zustand,
   project_1,
   project_2,
   project_3,

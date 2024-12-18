@@ -13,6 +13,10 @@ import {
   expressjs,
   html,
   postgresql,
+  git,
+  github,
+  redux,
+  zustand,
 } from '../assets';
 
 const Skill = () => {
@@ -63,9 +67,29 @@ const Skill = () => {
       desc: 'Framework',
     },
     {
+      imgSrc: redux,
+      label: 'Redux',
+      desc: 'State Management',
+    },
+    {
+      imgSrc: zustand,
+      label: 'Zustand',
+      desc: 'State Management',
+    },
+    {
       imgSrc: tailwindcss,
       label: 'TailwindCSS',
       desc: 'User Interface',
+    },
+    {
+      imgSrc: git,
+      label: 'Git',
+      desc: 'Version Control',
+    },
+    {
+      imgSrc: github,
+      label: 'GitHub',
+      desc: 'Development Platform',
     },
   ];
   return (
