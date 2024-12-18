@@ -30,23 +30,15 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org',
+    href: 'https://github.com/sajal9922',
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee',
+    href: 'https://www.linkedin.com/in/shamsul-alam-bb3726322/',
   },
   {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_',
-  },
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee',
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee',
+    label: 'Facebook',
+    href: 'https://www.facebook.com/sajal.moni',
   },
 ];
 const Footer = () => {
