@@ -34,6 +34,7 @@ import people_4 from './images/people-4.jpg';
 import people_5 from './images/people-5.jpg';
 import people_6 from './images/people-6.jpg';
 import done from './images/done.svg';
+import alam_resume from './images/alam_resume.pdf';
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   people_5,
   people_6,
   done,
+  alam_resume,
 };

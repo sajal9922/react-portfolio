@@ -3,11 +3,10 @@
 
 import {
   avaterSmall,
-  heroBanner,
-  heroBanner2,
   download,
   arrowDown,
   herobanner3,
+  alam_resume,
 } from '../assets';
 import Button from './Button';
 
@@ -38,7 +37,9 @@ const Hero = () => {
           </h2>
           <div className=" flex items-center gap-3">
             <Button
+              href={alam_resume}
               label="Download CV"
+              target="_blank"
               icon={<img className="h-5" src={download} alt="download" />}
               classes="btn-primary"
             />
