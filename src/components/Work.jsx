@@ -14,9 +14,9 @@ const Work = () => {
   const works = [
     {
       imgSrc: project_1,
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/',
+      title: 'Game search app',
+      tags: ['API', 'SPA', 'Development'],
+      projectLink: 'https://game-hub-eight-olive.vercel.app/',
     },
     {
       imgSrc: project_2,
@@ -26,27 +26,27 @@ const Work = () => {
     },
     {
       imgSrc: project_3,
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: '',
+      title: 'Portfolio website',
+      tags: ['Development', 'Web-design'],
+      projectLink: 'https://github.com/sajal9922/react-portfolio',
     },
     {
       imgSrc: project_4,
       title: 'Real state website',
       tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome',
+      projectLink: '',
     },
     {
       imgSrc: project_5,
       title: 'eCommerce website',
       tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website',
+      projectLink: '',
     },
     {
       imgSrc: project_6,
       title: 'vCard Personal portfolio',
       tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio',
+      projectLink: '',
     },
   ];
   return (
