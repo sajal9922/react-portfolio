@@ -86,7 +86,7 @@ const EducationTimeLine = () => {
                 }}
                 contentStyle={{
                   background: '#18181b',
-                  boxShadow: '0 8px 15px #0000001A',
+                  boxShadow: '0 8px 15px rgba(0, 0, 0, 0.5)',
                   borderRadius: '10px',
                   border: '0.5px solid #fff',
                 }}
