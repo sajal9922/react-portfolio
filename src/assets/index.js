@@ -39,6 +39,9 @@ import people_5 from './images/people-5.jpg';
 import people_6 from './images/people-6.jpg';
 import done from './images/done.svg';
 import alam_resume from './images/alam_resume.pdf';
+import utu_logo from './images/utu.png';
+import codecademy from './images/codecademy.png';
+import codewithmosh from './images/codewithmosh.png';
 
 export {
   logo,
@@ -81,4 +84,7 @@ export {
   people_6,
   done,
   alam_resume,
+  utu_logo,
+  codecademy,
+  codewithmosh,
 };

@@ -14,6 +14,7 @@ import Work from './components/Work.jsx';
 import Review from './components/Review.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import EducationTimeLine from './components/EducationTimeLine.jsx';
 
 // Register gsap plugins
 gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -46,6 +47,7 @@ const App = () => {
         <Skill />
         <Work />
         <Review />
+        <EducationTimeLine />
         <Contact />
       </main>
       <Footer />
