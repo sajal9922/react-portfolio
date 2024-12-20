@@ -42,6 +42,8 @@ import alam_resume from './images/alam_resume.pdf';
 import utu_logo from './images/utu.png';
 import codecademy from './images/codecademy.png';
 import codewithmosh from './images/codewithmosh.png';
+import centria_logo from './images/centria_logo.png';
+import national_uni_bd_logo from './images/national_uni_bd_logo.svg';
 
 export {
   logo,
@@ -87,4 +89,6 @@ export {
   utu_logo,
   codecademy,
   codewithmosh,
+  centria_logo,
+  national_uni_bd_logo,
 };

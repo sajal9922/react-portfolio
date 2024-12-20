@@ -7,7 +7,14 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { useInView } from 'react-intersection-observer';
-import { logo, utu_logo, codecademy, codewithmosh } from '../assets';
+import {
+  logo,
+  utu_logo,
+  codecademy,
+  codewithmosh,
+  centria_logo,
+  national_uni_bd_logo,
+} from '../assets';
 
 const educationData = [
   {
@@ -38,6 +45,7 @@ const educationData = [
       'Optimization',
       'Testing',
       'Database',
+      'Capstone Project',
     ],
     icon: utu_logo,
   },
@@ -49,13 +57,45 @@ const educationData = [
     details: [
       'HTML',
       'CSS',
-      'Node.js',
-      'Express.js',
+      'NodeJS',
+      'ExpressJS',
       'My Sql',
       'mongoDB',
       'Data Architecture',
     ],
     icon: codewithmosh,
+  },
+  {
+    date: '2004 - 2009',
+    degree: 'Bachelor Degree in Chemical Engineering ',
+    institution: 'Centria Ammattikorkeakoulu Kokkola',
+    details: [
+      'Environmental Engineering',
+      'Sustainability',
+      'Chemical Process',
+      'Thermodynamics',
+      'Biochemistry',
+      'Higher Mathematics',
+      'material Science',
+      'Capstone Projects',
+    ],
+    icon: centria_logo,
+  },
+  {
+    date: '2001',
+    degree: 'computer science & Engineering',
+    institution: 'National University of Bangladesh',
+    details: [
+      'Computer Science',
+      'Software Engineering',
+      'Data Structure',
+      'Algorithm',
+      'Statistics',
+      'Higher Mathematics',
+
+      'Capstone Projects',
+    ],
+    icon: national_uni_bd_logo,
   },
 ];
 
