@@ -37,7 +37,7 @@ const ContactForm = () => {
     setError('');
     setLoading(true);
     try {
-      const response = await fetch('https://getform.io/f/bnllypob', {
+      const response = await fetch('https://getform.io/f/aejjmzgb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
