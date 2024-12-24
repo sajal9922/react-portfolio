@@ -51,7 +51,7 @@ const Footer = () => {
               Let&apos;s work together today!
             </h2>
             <Button
-              href="mailto:sajal.moni@gmail.com"
+              href="mailto:shamsul.alam@smalam.com"
               label="Start project"
               classes="btn-primary reveal-up"
               icon={<img className="h-4" src={arrowRightDark} />}
