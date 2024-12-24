@@ -52,7 +52,7 @@ const Footer = () => {
             </h2>
             <Button
               href="mailto:shamsul.alam@smalam.com"
-              label="Start project"
+              label="Start projects"
               classes="btn-primary reveal-up"
               icon={<img className="h-4" src={arrowRightDark} />}
             />
