@@ -30,6 +30,8 @@ const Work = () => {
       tags: ['Development', 'Web-design'],
       projectLink: 'https://github.com/sajal9922/react-portfolio',
     },
+  ];
+  const upcomingWorks = [
     {
       imgSrc: project_4,
       title: 'Real state website',
@@ -50,23 +52,42 @@ const Work = () => {
     },
   ];
   return (
-    <section className="section" id="work">
-      <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">My portfolio highlights</h2>
-        <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
-            <ProjectCard
-              key={key}
-              imgSrc={imgSrc}
-              title={title}
-              tags={tags}
-              projectLink={projectLink}
-              classes="reveal-up"
-            />
-          ))}
+    <>
+      <section className="section" id="work">
+        <div className="container">
+          <h2 className="headline-2 mb-8 reveal-up">My portfolio highlights</h2>
+          <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+            {works.map(({ imgSrc, title, tags, projectLink }, key) => (
+              <ProjectCard
+                key={key}
+                imgSrc={imgSrc}
+                title={title}
+                tags={tags}
+                projectLink={projectLink}
+                classes="reveal-up"
+              />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="section">
+        <div className="container">
+          <h2 className="headline-2 mb-8 reveal-up">My upcoming projects</h2>
+          <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+            {upcomingWorks.map(({ imgSrc, title, tags, projectLink }, key) => (
+              <ProjectCard
+                key={key}
+                imgSrc={imgSrc}
+                title={title}
+                tags={tags}
+                projectLink={projectLink}
+                classes="reveal-up"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
