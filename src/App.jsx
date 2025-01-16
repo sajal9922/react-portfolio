@@ -11,10 +11,10 @@ import Hero from './components/Hero';
 import About from './components/About.jsx';
 import Skill from './components/Skill.jsx';
 import Work from './components/Work.jsx';
-import Review from './components/Review.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import EducationTimeLine from './components/EducationTimeLine.jsx';
+// import Review from './components/Review.jsx';
 
 // Register gsap plugins
 gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -46,7 +46,7 @@ const App = () => {
         <About />
         <Skill />
         <Work />
-        <Review />
+        {/* <Review /> */}
         <EducationTimeLine />
         <Contact />
       </main>
