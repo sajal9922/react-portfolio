@@ -17,10 +17,10 @@ const sitemap = [
     label: 'Work',
     href: '#work',
   },
-  {
-    label: 'Reviews',
-    href: '#reviews',
-  },
+  // {
+  //   label: 'Reviews',
+  //   href: '#reviews',
+  // },
   {
     label: 'Contact me',
     href: '#contact',
@@ -36,10 +36,10 @@ const socials = [
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/shamsul-alam-bb3726322/',
   },
-  {
-    label: 'Facebook',
-    href: 'https://www.facebook.com/sajal.moni',
-  },
+  // {
+  //   label: 'Facebook',
+  //   href: 'https://www.facebook.com/sajal.moni',
+  // },
 ];
 const Footer = () => {
   return (
